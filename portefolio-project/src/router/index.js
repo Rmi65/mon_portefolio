@@ -28,21 +28,16 @@ const routes = [
       component: TechView,
     },
     {
-      path: '/tech',
-      name: 'tech',
-      component: TechView,
-    },
-    {
       path: '/works',
       name: 'works',
       component: WorksView,
     },
     // Route 404 à la fin pour capturer toutes les routes non définies
-  {
-    path: '/:pathMatch(.*)*',
-    name: 'NotFound',
-    component: NotFoundView,
-  }
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: NotFoundView,
+    }
 ];
 
 const router = createRouter({

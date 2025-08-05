@@ -4,6 +4,10 @@
   </div>
 </template>
 
+<script setup>
+
+
+</script>
 <style scoped>
 h1, h2 {
     font-family: 'Linux Libertine', serif !important;
