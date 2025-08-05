@@ -1,9 +1,13 @@
+<template>
+  <div class="logos">
+    <img src="@/assets/logs/ls.svg" alt="logo-LS">
+  </div>
+</template>
+
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped>
+
+</style>
