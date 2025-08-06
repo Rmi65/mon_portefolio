@@ -1,6 +1,6 @@
 <template>
   <RouterLink to="/works" class="works-link">
-    <svg width="297mm" height="210mm" version="1.1" viewBox="0 0 297 210" xmlns="http://www.w3.org/2000/svg">
+    <svg version="1.1" viewBox="0 0 297 210" xmlns="http://www.w3.org/2000/svg">
       <g fill="none">
         <text transform="scale(.9995 1.0005)" x="224.56572" y="402.50046" font-family="Linux Libertine"
           font-size="61.322px" font-style="italic" stroke="#c1bfe8" stroke-width=".9"
@@ -36,4 +36,11 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+svg {
+  width: 100%; /* ou essaye 80% ou 60% selon le rendu souhaité */
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+</style>
