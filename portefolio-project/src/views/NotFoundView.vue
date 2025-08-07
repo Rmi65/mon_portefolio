@@ -25,7 +25,7 @@ export default {
 }
 
 h1 {
-  color:rgb(216, 107, 33);
+  color:black;
   margin-bottom: 20px;
   font-family: "Linux Libertine", serif !important;
 }
@@ -36,17 +36,16 @@ p {
 }
 
 a {
-  color: rgb(33, 217, 33);
+  color: black;
   text-decoration: none;
   padding: 10px 20px;
-  border: 1px solid rgb(33, 217, 33);
+  border: 1px solid black;
   border-radius: 5px;
   font-family: "Linux Libertine", serif !important;
   font-size: 19px;
 }
 
 a:hover {
-  background-color: rgb(216, 107, 33);
-  color: rgb(33, 217, 33);
+  background-color: greenyellow;
 }
 </style>

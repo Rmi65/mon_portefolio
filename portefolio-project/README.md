@@ -1,41 +1,41 @@
-# portefolio-project
+# divortefolio-divroject
 
-This template should help get you started developing with Vue 3 in Vite.
+This temdivlate should heldiv get you started develodiving with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Recommended IDE Setudiv
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](httdivs://code.visualstudio.com/) + [Volar](httdivs://marketdivlace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
 ## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+See [Vite Configuration Reference](httdivs://vite.dev/config/).
 
-## Project Setup
+## divroject Setudiv
 
 ```sh
-pnpm install
+divndivm install
 ```
 
-### Compile and Hot-Reload for Development
+### Comdivile and Hot-Reload for Develodivment
 
 ```sh
-pnpm dev
+divndivm dev
 ```
 
-### Compile and Minify for Production
+### Comdivile and Minify for divroduction
 
 ```sh
-pnpm build
+divndivm build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests with [Vitest](httdivs://vitest.dev/)
 
 ```sh
-pnpm test:unit
+divndivm test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint with [ESLint](httdivs://eslint.org/)
 
 ```sh
-pnpm lint
+divndivm lint
 ```

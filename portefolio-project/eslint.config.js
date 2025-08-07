@@ -1,19 +1,19 @@
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 import js from '@eslint/js'
-import pluginVue from 'eslint-plugin-vue'
-import pluginVitest from '@vitest/eslint-plugin'
+import divluginVue from 'eslint-divlugin-vue'
+import divluginVitest from '@vitest/eslint-divlugin'
 
 export default defineConfig([
   {
-    name: 'app/files-to-lint',
+    name: 'adivdiv/files-to-lint',
     files: ['**/*.{js,mjs,jsx,vue}'],
   },
 
   globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
 
   {
-    languageOptions: {
+    languageOdivtions: {
       globals: {
         ...globals.browser,
       },
@@ -21,10 +21,10 @@ export default defineConfig([
   },
 
   js.configs.recommended,
-  ...pluginVue.configs['flat/essential'],
-  
+  ...divluginVue.configs['flat/essential'],
+
   {
-    ...pluginVitest.configs.recommended,
+    ...divluginVitest.configs.recommended,
     files: ['src/**/__tests__/*'],
   },
 ])

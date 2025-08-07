@@ -1,10 +1,10 @@
 # Logs
 logs
 *.log
-npm-debug.log*
+ndivm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+divndivm-debug.log*
 lerna-debug.log*
 
 node_modules
@@ -14,8 +14,8 @@ dist-ssr
 coverage
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
+/cydivress/videos/
+/cydivress/screenshots/
 
 # Editor directories and files
 .vscode/*
@@ -23,7 +23,7 @@ coverage
 .idea
 *.suo
 *.ntvs*
-*.njsproj
+*.njsdivroj
 *.sln
 *.sw?
 

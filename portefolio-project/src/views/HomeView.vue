@@ -1,22 +1,18 @@
 <template>
   <header class="navbar">
-    <div class="logo">
-      <router-link to="/">
-        <img src="../assets/logos/ls.svg" alt="logo-lionel-sabattier">
-      </router-link>
-    </div>
     <div class="nav-links">
       <router-link to="/">
         <p class="nav">Home</p>
       </router-link>
       <p class="nav">
-      <a href="https://x.com/lionsabafreefr1" target="no_blank" rel="noopener noreferrer">X</a>
+        <a href="https://x.com/lionsabafreefr1" target="no_blank" rel="noopener noreferrer">X</a>
       </p>
       <p class="nav">
-      <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="no_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="no_blank"
+          rel="noopener noreferrer">LinkedIn</a>
       </p>
       <p class="nav">
-      <a href="https://github.com/Rmi65" target="no_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/Rmi65" target="no_blank" rel="noopener noreferrer">GitHub</a>
       </p>
     </div>
   </header>
@@ -24,10 +20,13 @@
     <div class="presentation">
       <h3>Lionel Sabattier</h3>
       <p class="dev">Développeur web fullstack / Designer</p><br>
-      <p class="text">Passionné par le développement web, je suis toujours à la recherche de nouveaux défis et de projets
+      <p class="text">Passionné par le développement web, je suis toujours à la recherche de nouveaux défis et de
+        projets
         innovants. </p><br>
-      <p class="text">Mon expertise couvre une large gamme de technologies, et je suis en train de progresser quotidiennement.</p><br>
-      <p class="text">Je suis actuellement à la recherche d'opportunités professionnelles dans le développement web.</p><br>
+      <p class="text">Mon expertise couvre une large gamme de technologies, et je suis en train de progresser
+        quotidiennement.</p><br>
+      <p class="text">Je suis actuellement à la recherche d'opportunités professionnelles dans le développement web.</p>
+      <br>
       <p class="text">Si vous êtes intéressé par mon profil, n'hésitez pas à me contacter.</p>
     </div>
     <div class="theme">
@@ -59,7 +58,7 @@
   align-items: center;
   width: 100%;
   padding: 0 2rem;
-  /* Optionnel : ajoute un peu d'espace sur les côtés */
+  margin-left: 2%
 }
 
 .nav-links {
@@ -73,15 +72,23 @@
   font-size: 1.3rem;
   cursor: pointer;
 }
+
 .nav-links :hover {
   font-style: italic;
+  font-weight: bold;
 }
 
+.nav-links a,
+.nav-links .nav {
+    text-decoration: none !important;
+    color: black; /* Assurez-vous que la couleur est correcte */
+}
 
 .nav-items {
   font-family: 'Linux Libertine', serif !important;
   font-size: 13rem;
-  margin: 0; /* Ajoute cette ligne */
+  margin: 0;
+  /* Ajoute cette ligne */
   padding: 0;
   letter-spacing: 0.9rem;
   cursor: pointer;
@@ -94,7 +101,7 @@
 }
 
 img {
-  width:6%;
+  width: 6%;
   margin-left: 4%;
   margin-top: 2%;
 }
@@ -120,7 +127,7 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-top: 20%;
   line-height: 0.1;
 }
@@ -132,56 +139,28 @@ img {
   line-height: 0;
   margin-top: 1%;
   cursor: pointer;
-  color: black; /* définir la couleur souhaitée ici */
-  text-decoration: none !important;
-  text-decoration-line: none !important;
-  -moz-text-decoration-line: none !important; /* Préfixe Firefox */
+  color: black;
 }
+
 .theme :hover {
   font-style: italic;
 }
-/* Supprime la décoration des liens */
-.theme a {
-  text-decoration: none !important;
-  -moz-text-decoration: none !important;
-  color: black; /* garde la couleur du parent */
-  /* Supprime le soulignement */
-}
-.theme a:focus {
-  text-decoration: none !important;
-  -moz-text-decoration: none !important
-  /* Supprime le contour bleu au focus */
-}
-@-moz-document url-prefix() {
-  .theme a, .theme a .nav-items {
+
+.theme a,
+.theme .nav-items {
     text-decoration: none !important;
-  }
+    color: black;
 }
 
-.nav-link {
-  text-decoration: none !important;
-  -moz-text-decoration: none !important;
-  color: black;
-}
-.nav-link a:focus {
-  text-decoration: none !important;
-  -moz-text-decoration: none !important;
-  color: black;
-  /* Supprime le contour bleu au focus */
-}
-.nav-link a{
-  text-decoration: none !important;
-  -moz-text-decoration: none !important;
-  color: black;
-}
-
-h3{
-  font-size: 2rem;;
+h3 {
+  font-size: 2rem;
+  ;
   font-family: 'Linux Libertine', serif !important;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+
 .dev {
   font-weight: bold;
   font-size: 1.4rem;
@@ -199,6 +178,4 @@ h3{
   font-style: italic !important;
   font-size: 10rem;
 }
-
-
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="tech">
-    <h1>This is an tech page</h1>
+    <h1>This is an tech divage</h1>
   </div>
 </template>
 
