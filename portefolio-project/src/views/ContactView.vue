@@ -1,16 +1,18 @@
 <template>
   <div class="background" />
+
   <header class="navbar fade-in-down">
+
     <div class="nav-links">
       <router-link to="/">
         <p class="nav">home</p>
       </router-link>
-      <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">X</a>
-      <a class="nav" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
-        target="_blank" rel="noopener noreferrer">linkedIn</a>
+      <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">x</a>
+     <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank" rel="noopener noreferrer">linkedIn</a>
       <a class="nav" href="https://github.com/Rmi65" target="_blank" rel="noopener noreferrer">gitHub</a>
     </div>
   </header>
+
   <div class="container">
 
     <div class="presentation fade-in-up">
@@ -38,7 +40,6 @@
     transform: translateY(0);
   }
 }
-
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -49,7 +50,6 @@
     transform: translateX(0);
   }
 }
-
 @keyframes fadeInRight {
   from {
     opacity: 0;
@@ -60,7 +60,6 @@
     transform: translateX(0);
   }
 }
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -71,24 +70,20 @@
     transform: translateY(0);
   }
 }
-
 /* Classes d'animation */
 .fade-in-down {
   animation: fadeInDown 0.8s ease-out forwards;
 }
-
 .fade-in-left {
   animation: fadeInLeft 0.8s ease-out 0.2s both;
 }
-
 .fade-in-right {
   animation: fadeInRight 0.8s ease-out 0.4s both;
 }
-
 .fade-in-up {
   animation: fadeInUp 0.8s ease-out 0.3s both;
 }
-
+/* BACKGROUND */
 .background {
   background-color: black;
   position: absolute;
@@ -134,7 +129,6 @@
   margin: 0;
   padding: 0;
   letter-spacing: 0.9rem;
-  cursor: pointer;
   margin-top: 0 px;
   line-height: 0.8;
 }
@@ -150,15 +144,12 @@
   font-family: 'Linux Libertine', serif !important;
   font-size: 1.3rem;
   line-height: 2;
-  margin-left: 8%;
+  margin-left: 10%;
   color: white;
   line-height: 2;
   margin-top: 3%;
 }
 
-.description {
-  width: 100%;
-}
 .container {
   display: flex;
   flex-direction: row;
@@ -174,7 +165,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-left: 8%;
+  margin-left: 6%;
   margin-top: 23%;
   line-height: 0.2;
   color: white;
@@ -199,10 +190,6 @@ h3 {
   letter-spacing: 8px;
 }
 
-.text {
-  font-size: 1.2rem;
-}
-
 .italic {
   font-family: 'Linux Libertine', serif !important;
   font-style: italic !important;
@@ -220,30 +207,10 @@ img:hover {
   transform: scale(1.05);
 }
 
-.cv-link {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 15px 15px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 2px solid white;
-  font-family: 'Linux Libertine', serif !important;
-  font-size: 1rem;
-  text-decoration: none;
-}
-.cv-link:hover {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-}
-
 .container a {
   font-family: 'Linux Libertine', serif !important;
   font-size: 1.2rem;
   color: white;
-  text-decoration: none;
 }
 /* Media queries pour optimiser les animations sur mobile */
 @media (prefers-reduced-motion: reduce) {

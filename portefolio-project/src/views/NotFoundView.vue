@@ -28,6 +28,7 @@ h1 {
   color:black;
   margin-bottom: 20px;
   font-family: "Linux Libertine", serif !important;
+  letter-spacing: 10px;
 }
 
 p {

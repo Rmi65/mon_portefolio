@@ -7,9 +7,8 @@
       <router-link to="/">
         <p class="nav">home</p>
       </router-link>
-      <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">X</a>
-      <a class="nav" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
-        target="_blank" rel="noopener noreferrer">linkedIn</a>
+      <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">x</a>
+      <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank" rel="noopener noreferrer">linkedIn</a>
       <a class="nav" href="https://github.com/Rmi65" target="_blank" rel="noopener noreferrer">gitHub</a>
     </div>
   </header>
@@ -218,7 +217,7 @@ img {
   /* Animation pour l'image */
   transition: transform 0.3s ease;
   margin-bottom: 30px;
-  margin-right: 15%;
+  margin-right: 20%;
 }
 img:hover {
   transform: scale(1.05);

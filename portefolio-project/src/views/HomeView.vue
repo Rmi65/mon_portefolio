@@ -5,9 +5,8 @@
       <router-link to="/">
         <span class="nav">home</span>
       </router-link>
-      <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">X</a>
-      <a class="nav" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
-        target="_blank" rel="noopener noreferrer">linkedIn</a>
+      <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">x</a>
+      <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank" rel="noopener noreferrer">linkedIn</a>
       <a class="nav" href="https://github.com/Rmi65" target="_blank" rel="noopener noreferrer">gitHub</a>
     </div>
   </header>
@@ -169,7 +168,7 @@ img {
   align-items: flex-start;
   margin-left: 6%;
   margin-top: 17%;
-  line-height: 0.8;
+  line-height: 0.2;
 }
 /* THEME*/
 .theme {
