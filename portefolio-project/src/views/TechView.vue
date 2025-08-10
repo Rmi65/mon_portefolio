@@ -6,14 +6,16 @@
         <p class="nav">home</p>
       </router-link>
       <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">x</a>
-      <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank" rel="noopener noreferrer">linkedIn</a>
+      <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank"
+        rel="noopener noreferrer">linkedIn</a>
       <a class="nav" href="https://github.com/Rmi65" target="_blank" rel="noopener noreferrer">gitHub</a>
     </div>
   </header>
   <div class="container">
     <div class="presentation fade-in-left">
       <h3>Lionel Sabattier</h3>
-      <p class="dev">Développeur web fullstack / Designer</p><br>
+      <p class="dev">Développeur web fullstack / Designer</p><br></br>
+      <p class="acquisition">En cours d'acquisition : <br></br>Angular / Symfony / Python / Java</p>
     </div>
     <div class="theme fade-in-down">
       <div>
@@ -33,8 +35,10 @@
           <img src="../assets/logos/sql.svg" alt="logo-sql" class="sql" title="SQL">
           <img src="../assets/logos/docker.svg" alt="logo-docker" class="docker" title="Docker">
           <img src="../assets/logos/git.svg" alt="logo-git" class="git" title="Git">
-          <img src="../assets/logos/adobe-illustrator.svg" alt="logo-adobe-illustrator" class="adobe-illustrator" title="Adobe Illustrator">
-          <img src="../assets/logos/photoshop.svg" alt="logo-adobe-photoshop" class="adobe-photoshop" title="Adobe Photoshop">
+          <img src="../assets/logos/adobe-illustrator.svg" alt="logo-adobe-illustrator" class="adobe-illustrator"
+            title="Adobe Illustrator">
+          <img src="../assets/logos/photoshop.svg" alt="logo-adobe-photoshop" class="adobe-photoshop"
+            title="Adobe Photoshop">
           <img src="../assets/logos/inkscape.svg" alt="logo-inkscape" class="inkscape" title="Inkscape">
           <img src="../assets/logos/linux.svg" alt="logo-linux" class="linux" title="Linux">
 
@@ -52,6 +56,7 @@
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -63,6 +68,7 @@
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -74,6 +80,7 @@
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -85,6 +92,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -126,6 +134,7 @@
   padding: 0 2rem;
   margin-left: 2%;
 }
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -138,6 +147,7 @@
   cursor: pointer;
   margin-top: 0px;
 }
+
 .nav-links :hover {
   font-style: italic;
   font-weight: bold;
@@ -160,7 +170,7 @@
   font-family: 'Linux Libertine', serif !important;
   font-size: 1.3rem;
   line-height: 2;
-  margin-left: 8%;
+  margin-left: 12%;
   color: black;
   line-height: 2;
   margin-top: 5%;
@@ -168,14 +178,18 @@
 
 .icons {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 colonnes exactement */
-  grid-template-rows: repeat(4, 1fr); /* 3 lignes exactement */
-  gap: 2rem 1.5rem; /* gap vertical 2rem, horizontal 1.5rem */
+  grid-template-columns: repeat(5, 1fr);
+  /* 5 colonnes exactement */
+  grid-template-rows: repeat(4, 1fr);
+  /* 3 lignes exactement */
+  gap: 2rem 1.5rem;
+  /* gap vertical 2rem, horizontal 1.5rem */
   margin-top: 1rem;
   justify-items: center;
   align-items: center;
   width: 100%;
-  max-width: 400px; /* Limite la largeur totale */
+  max-width: 400px;
+  /* Limite la largeur totale */
   gap: 1.5rem 4rem;
 }
 
@@ -228,6 +242,7 @@
   opacity: 0;
   animation: tooltipFadeIn 0.3s ease-in-out forwards;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -249,6 +264,15 @@
   color: black;
 }
 
+.presentation p {
+  font-family: 'Linux Libertine', serif !important;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 4px;
+  list-style: 0.2;
+}
+
 h3 {
   font-size: 2rem;
   font-family: 'Linux Libertine', serif !important;
@@ -256,42 +280,49 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+.dev {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: italic;
+  letter-spacing: 4px;
+}
+
+.acquisition {
+ line-height: 1.2;
+}
 
 .theme p {
   justify-content: center;
 }
 
-.dev {
-  font-size: 1.2rem;
-  font-style: italic;
-  letter-spacing: 8px;
-}
 h4 {
   font-size: 1.4rem;
   font-weight: bold;
   font-style: italic;
   margin: 1rem 0;
   font-family: 'Linux Libertine', serif !important;
-  letter-spacing: 10px;
-}
-/* Media queries pour optimiser les animations sur mobile */
-@media (prefers-reduced-motion: reduce) {
-  .fade-in-down,
-  .fade-in-left,
-  .fade-in-right,
-  .fade-in-up,
-  .fade-in-page {
-    animation: none;
-    opacity: 1;
-    transform: none;
+  letter-spacing: 4px;
   }
-}
 
-@media (max-width: 768px) {
-  .fade-in-left,
-  .fade-in-right {
-    animation-name: fadeInUp;
-    animation-delay: 0.2s;
+  /* Media queries pour optimiser les animations sur mobile */
+  @media (prefers-reduced-motion: reduce) {
+
+    .fade-in-down,
+    .fade-in-left,
+    .fade-in-right,
+    .fade-in-up,
+    .fade-in-page {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
   }
-}
-</style>
+
+  @media (max-width: 768px) {
+
+    .fade-in-left,
+    .fade-in-right {
+      animation-name: fadeInUp;
+      animation-delay: 0.2s;
+    }
+  }</style>

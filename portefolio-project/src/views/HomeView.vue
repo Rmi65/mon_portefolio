@@ -39,6 +39,7 @@
       <router-link to="/contact">
         <p class="nav-items">c<span class="italic">o</span>ntact</p>
       </router-link>
+
     </div>
   </div>
 </template>
@@ -167,7 +168,7 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 6%;
-  margin-top: 17%;
+  margin-top: 20%;
   line-height: 0.2;
 }
 /* THEME*/
@@ -190,7 +191,6 @@ img {
 /* FONTS*/
 h3 {
   font-size: 2rem;
-  ;
   font-family: 'Linux Libertine', serif !important;
   margin: 0;
   text-transform: uppercase;
@@ -200,7 +200,7 @@ h3 {
   font-weight: bold;
   font-size: 1.2rem;
   font-style: italic;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
 }
 .text {
   font-size: 0.9rem;

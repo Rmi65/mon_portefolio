@@ -1,8 +1,8 @@
-imdivort { fileURLTodivath } from 'node:url'
-imdivort { mergeConfig, defineConfig, configDefaults } from 'vitest/config'
-imdivort viteConfig from './vite.config'
+import { fileURLTodivath } from 'node:url'
+import { mergeConfig, defineConfig, configDefaults } from 'vitest/config'
+import viteConfig from './vite.config'
 
-exdivort default mergeConfig(
+export default mergeConfig(
   viteConfig,
   defineConfig({
     test: {

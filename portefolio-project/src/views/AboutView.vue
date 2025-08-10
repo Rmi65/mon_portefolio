@@ -18,11 +18,17 @@
     <div class="presentation fade-in-left">
       <h3>Lionel Sabattier</h3>
       <p class="dev">Développeur web fullstack / Designer</p><br>
-      <a href="/public/cv-ls.pdf" download="lionel-sabattier-CV.pdf" class="cv-link">mon CV</a>
+      <p>Mes diplômes : </p><br>
+      <ul>
+        <li>▫️Titre Pro Développeur Web Full Stack</li>
+        <li>▫️Licence en Sciences de l'Éducation</li>
+        <li>▫️Licence en Administration Économique et Sociale</li>
+        <li>▫️Bac Pro Bureautique Comptabilité</li>
+      </ul>
     </div>
 
     <div class="theme fade-in-right">
-      <img src="../assets/img/photo-LionelSabattier.jpeg">
+      <img src="../assets/img/photo-LionelSabattier.jpeg" alt="Lionel Sabattier" title="Lionel Sabattier">
       <p class="description">
         Depuis mes premiers pas dans l'univers forain jusqu'à ma formation en AES et Sciences de l'Éducation, <br></br>
         mon chemin a toujours été guidé par la curiosité et l'apprentissage. <br></br>
@@ -83,6 +89,8 @@
   }
 }
 
+/* Animation pour l'info-bulle */
+
 /* Classes d'animation */
 .fade-in-down {
   animation: fadeInDown 0.8s ease-out forwards;
@@ -100,7 +108,6 @@
   animation: fadeInUp 0.8s ease-out 0.6s both;
 }
 
-
 .background {
   background-color: black;
   position: absolute;
@@ -110,6 +117,7 @@
   bottom: 0;
   z-index: -1;
 }
+
 /* NAV */
 .navbar {
   display: flex;
@@ -119,6 +127,7 @@
   padding: 0 2rem;
   margin-left: 2%;
 }
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -131,15 +140,18 @@
   cursor: pointer;
   margin-top: 0px;
 }
+
 .nav-links :hover {
   font-style: italic;
   font-weight: bold;
 }
+
 .nav-links a,
 .nav-links .nav {
   text-decoration: none !important;
   color: white;
 }
+
 .nav-items {
   font-family: 'Linux Libertine', serif !important;
   font-size: 13rem;
@@ -150,9 +162,11 @@
   margin-top: 0px;
   line-height: 0.8;
 }
+
 .nav {
   font-family: 'Linux Libertine', serif !important;
 }
+
 /* BLOCS */
 .theme {
   display: flex;
@@ -162,22 +176,32 @@
   font-family: 'Linux Libertine', serif !important;
   font-size: 1rem;
   line-height: 2;
-  margin-left: 8%;
+  margin-left: 6%;
   color: white;
   line-height: 2;
 }
 
+ul {
+  line-height: 1.5;
+  list-style-type: none;
+}
+ul li {
+  font-family: 'Linux Libertine', serif !important;
+}
 .description {
   width: 100%;
   margin-right: 10%;
 }
+
 .container {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-top: 2rem;
-  margin-left: 0px;
+  margin-left: 20px;
+  gap: 28px;
 }
+
 /* TEXTE */
 .presentation {
   font-family: 'Linux Libertine', serif !important;
@@ -185,10 +209,15 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-left: 6%;
-  margin-top: 20%;
+  margin-left: 8%;
+  margin-top: 18%;
   line-height: 0.2;
   color: white;
+}
+.presentation p {
+  font-family: 'Linux Libertine', serif !important;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 h3 {
@@ -198,17 +227,17 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+.dev {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: italic;
+  letter-spacing: 4px;
+}
 
 .theme p {
   justify-content: center;
 }
 
-.dev {
-  font-size: 1.2rem;
-  font-style: italic;
-  letter-spacing: 8px;
-  line-height: 0.9;
-}
 
 /* IMG */
 img {
@@ -217,29 +246,10 @@ img {
   /* Animation pour l'image */
   transition: transform 0.3s ease;
   margin-bottom: 30px;
-  margin-right: 20%;
+  margin-left: 15%;
 }
 img:hover {
-  transform: scale(1.05);
-}
-
-.cv-link {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 15px 15px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 2px solid white;
-  font-family: 'Linux Libertine', serif !important;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-.cv-link:hover {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
+  transform: scale(1.30);
 }
 
 /* Media queries pour optimiser les animations sur mobile */
