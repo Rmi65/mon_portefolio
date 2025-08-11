@@ -25,14 +25,14 @@
       <div>
         <h4>POLARIS VACANCES : Projet de Formation</h4>
         <div class="polaris">
-          <video src="/src/videos/polaris-vacances.mp4" controls width="300" height="200">
+          <video src='/src/videos/polaris-vacances.mp4' controls width="300" height="200">
             Désolé, votre navigateur ne supporte pas les vidéos intégrées.
           </video>
           <div class="polaris-details">
-            <p>Plateforme nationale de réservations d'emplacements de camping</p>
-            <p>→ Dashboards : Client / Gérant / Administrateur</p>
-            <p>→ Paiement sécurisé : Stripe / Paypal</p>
-            <p>→ React / MUI / Laravel / Mysql / Apache </p>
+            <p>Plateforme nationale de réservation d'emplacements de camping</p>
+            <p>▪️ Dashboards : Client / Gérant / Administrateur</p>
+            <p>▪️ Paiement sécurisé : Stripe / Paypal</p>
+            <p>▪️ React / MUI / Laravel / Mysql / Apache </p>
           </div>
         </div>
       </div>
@@ -44,10 +44,10 @@
           </video>
           <div class="naelabs-details">
             <p>Société de Service de l'Ingénérie et de l'Informatique</p>
-            <p>→ Design UI / UX</p>
-            <p>→ API Rest & Appel API externe arXiv</p>
-            <p>→ Conteneurisation Docker</p>
-            <p>→ Vue.js / Spring boot / PostgreSQL / Nginx / Inkscape</p>
+            <p>▪️ Design UI / UX</p>
+            <p>▪️ API Rest et Appel API externe arXiv</p>
+            <p>▪️ Conteneurisation Docker</p>
+            <p>▪️ Vue.js / Spring boot / PostgreSQL / Nginx / Inkscape</p>
 
           </div>
         </div>
@@ -197,7 +197,8 @@
   margin: 10px;
   padding: 10px;
   font-family: 'Linux Libertine', serif !important;
-  font-style: italic;
+  font-size: 1.1rem;
+
 }
 
 .naelabs {
@@ -215,7 +216,8 @@
   margin: 10px;
   padding: 10px;
   font-family: 'Linux Libertine', serif !important;
-  font-style: italic;
+  font-size: 1.1rem;
+
 }
 
 .container {
