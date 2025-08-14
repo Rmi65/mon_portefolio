@@ -200,7 +200,6 @@ h3 {
   letter-spacing: 10px;
 }
 .dev {
-  font-weight: bold;
   font-size: 1.2rem;
   font-style: italic;
   letter-spacing: 4px;

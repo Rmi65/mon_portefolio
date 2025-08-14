@@ -21,7 +21,7 @@
         <li>▪️Site pour une Créatrice de Bijoux</li>
       </ul>
     </div>
-    <div class="theme fade-in-down">
+    <div class="theme fade-in-right">
       <div>
         <h4>POLARIS VACANCES : Projet de Formation</h4>
         <div class="polaris">
@@ -29,7 +29,7 @@
             Désolé, votre navigateur ne supporte pas les vidéos intégrées.
           </video>
           <div class="polaris-details">
-            <p>Plateforme nationale de réservation d'emplacements de camping</p>
+            <p><strong>Plateforme de réservation d'emplacements de camping</strong></p>
             <p>▪️ Dashboards : Client / Gérant / Administrateur</p>
             <p>▪️ Paiement sécurisé : Stripe / Paypal</p>
             <p>▪️ React / MUI / Laravel / Mysql / Apache </p>
@@ -43,7 +43,7 @@
             Désolé, votre navigateur ne supporte pas les vidéos intégrées.
           </video>
           <div class="naelabs-details">
-            <p>Société de Service de l'Ingénérie et de l'Informatique</p>
+            <p><strong>Société de Service de l'Ingénérie et de l'Informatique</strong></p>
             <p>▪️ Design UI / UX</p>
             <p>▪️ API Rest et Appel API externe arXiv</p>
             <p>▪️ Conteneurisation Docker</p>

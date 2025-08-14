@@ -8,7 +8,8 @@
         <p class="nav">home</p>
       </router-link>
       <a class="nav" href="https://x.com/lionsabafreefr1" target="_blank" rel="noopener noreferrer">x</a>
-      <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank" rel="noopener noreferrer">linkedIn</a>
+      <a class="nav" href="https://www.linkedin.com/in/lionel-sabattier" target="_blank"
+        rel="noopener noreferrer">linkedIn</a>
       <a class="nav" href="https://github.com/Rmi65" target="_blank" rel="noopener noreferrer">gitHub</a>
     </div>
   </header>
@@ -18,11 +19,11 @@
     <div class="presentation fade-in-left">
       <h3>Lionel Sabattier</h3>
       <p class="dev">Développeur web fullstack / Designer</p><br>
-      <p>Mes diplômes : </p><br>
+      <p class="diplomes">Mes diplômes : </p>
       <ul>
         <li>▫️Titre Pro Développeur Web Full Stack</li>
         <li>▫️Licence en Sciences de l'Éducation</li>
-        <li>▫️Licence en Administration Économique et Sociale</li>
+        <li>▫️Licence A.E.S</li>
         <li>▫️Bac Pro Bureautique Comptabilité</li>
       </ul>
     </div>
@@ -33,8 +34,10 @@
         Depuis mes premiers pas dans l'univers forain jusqu'à ma formation en AES et Sciences de l'Éducation, <br></br>
         mon chemin a toujours été guidé par la curiosité et l'apprentissage. <br></br>
         Avec la gestion et la communication de projets dans les arts vivants pendant plus de 20
-        ans, <br></br>j'ai développé une expertise en design et en création vidéo, essentielle à la promotion des spectacles.
-        <br></br> Mon engagement social m'a ensuite amené à créer des outils numériques pour des publics vulnérables. <br></br>
+        ans, <br></br>j'ai développé une expertise en design et en création vidéo, essentielle à la promotion des
+        spectacles.
+        <br></br> Mon engagement social m'a ensuite amené à créer des outils numériques pour des publics vulnérables.
+        <br></br>
         Ces expériences m'ont poussé à formaliser ma passion pour l'informatique. <br></br>Aujourd'hui, en tant que
         développeur web full stack, j'entreprends un nouveau chapitre, <br></br>prêt à mettre ma rigueur,
         ma créativité et mon amour du défi au service de projets web innovants.
@@ -50,6 +53,7 @@
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -61,6 +65,7 @@
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -72,6 +77,7 @@
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -83,6 +89,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -185,9 +192,11 @@ ul {
   line-height: 1.5;
   list-style-type: none;
 }
+
 ul li {
   font-family: 'Linux Libertine', serif !important;
 }
+
 .description {
   width: 100%;
   margin-right: 10%;
@@ -214,6 +223,7 @@ ul li {
   line-height: 0.2;
   color: white;
 }
+
 .presentation p {
   font-family: 'Linux Libertine', serif !important;
   font-size: 1.2rem;
@@ -227,8 +237,9 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+
 .dev {
-  font-weight: bold;
+
   font-size: 1.2rem;
   font-style: italic;
   letter-spacing: 4px;
@@ -248,28 +259,84 @@ img {
   margin-bottom: 30px;
   margin-left: 15%;
 }
+
 img:hover {
   transform: scale(1.30);
 }
 
-/* Media queries pour optimiser les animations sur mobile */
-@media (prefers-reduced-motion: reduce) {
-  .fade-in-down,
-  .fade-in-left,
-  .fade-in-right,
-  .fade-in-up,
-  .fade-in-page {
-    animation: none;
-    opacity: 1;
-    transform: none;
+/* ------ MEDIA QUERIES -------*/
+@media screen and (max-width: 319px) {
+  .nav-links {
+    gap: 0.5rem;
+    font-size: 0.8rem;
   }
-}
 
-@media (max-width: 768px) {
-  .fade-in-left,
-  .fade-in-right {
-    animation-name: fadeInUp;
-    animation-delay: 0.2s;
+  .nav {
+    margin-left: 5%;
   }
+
+  h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .dev {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-top: 1%;
+  }
+
+  .presentation p {
+    line-height: 0.8;
+    font-size: 0.8rem;
+  }
+
+  .presentation {
+    margin-left: 0.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .presentation ul li {
+    font-size: 0.8rem;
+    margin-left: 0%;
+  }
+
+  img {
+    width: 40%;
+    display: flex;
+    margin-right: 35%;
+    margin-top: 0.5%;
+  }
+
+  .description {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: justify;
+    width: 95%;
+    margin-top: 0.9%;
+    margin-right: 16%;
+  }
+
+  ul {
+    margin-top: 0.1%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: -10px;
+  }
+
+  .diplomes {
+    margin-top: 0.5%;
+    font-size: 2rem;
+  }
+
 }
 </style>
