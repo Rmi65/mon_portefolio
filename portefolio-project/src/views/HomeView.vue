@@ -26,11 +26,11 @@
       <router-link to="/about">
         <p class="nav-items">ab<span class="italic">o</span>ut</p>
       </router-link>
-      <router-link to="/tech">
-        <p class="nav-items">techn<span class="italic">o</span></p>
-      </router-link>
       <router-link to="/works">
         <p class="nav-items">w<span class="italic">o</span>rks</p>
+      </router-link>
+      <router-link to="/tech">
+        <p class="nav-items">techn<span class="italic">o</span></p>
       </router-link>
       <router-link to="/contact">
         <p class="nav-items">c<span class="italic">o</span>ntact</p>
@@ -121,9 +121,17 @@
   font-weight: bold;
 }
 .nav-links a,
-.nav-links .nav {
+.nav-links .nav,
+.nav-links router-link {
   text-decoration: none !important;
   color: black;
+}
+
+.nav-links a:hover,
+.nav-links a:visited,
+.nav-links a:focus,
+.nav-links a:active {
+  text-decoration: none !important;
 }
 .nav-items {
   font-family: 'Linux Libertine', serif !important;
@@ -176,6 +184,11 @@
 .theme .nav-items {
   text-decoration: none !important;
   color: black;
+}
+.theme a:visited,
+.theme a:focus,
+.theme a:active {
+  text-decoration: none !important;
 }
 /* FONTS*/
 h3 {
