@@ -21,9 +21,10 @@
       <p class="dev">Développeur web fullstack / Designer</p><br>
       <p class="diplomes">Mes diplômes : </p>
       <ul>
+        <li>▫️Google Cetificate : IA Fundamentals</li>
         <li>▫️Titre Pro Développeur Web Full Stack</li>
         <li>▫️Licence en Sciences de l'Éducation</li>
-        <li>▫️Licence A.E.S</li>
+        <li>▫️Licence A.E.S - Gestion et Administration des entreprises</li>
         <li>▫️Bac Pro Bureautique Comptabilité</li>
       </ul>
     </div>

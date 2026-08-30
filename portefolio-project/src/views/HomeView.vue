@@ -27,7 +27,7 @@
         <p class="nav-items">ab<span class="italic">o</span>ut</p>
       </router-link>
       <router-link to="/works">
-        <p class="nav-items">w<span class="italic">o</span>rks</p>
+        <p class="nav-items">w<span class="italic">o</span>rk</p>
       </router-link>
       <router-link to="/tech">
         <p class="nav-items">techn<span class="italic">o</span></p>
